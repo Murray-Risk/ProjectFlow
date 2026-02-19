@@ -84,29 +84,6 @@ Together, these components transform **project data** into **structured, governe
 - **Asset (ISO 55000)** — Assets & maintenance
     
 
-## **Getting Started**
-
-bash
-
-```
-git clone https://github.com/<your-username>/projectflow-kernel
-cd projectflow-kernel/backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
-
-Frontend:
-
-bash
-
-```
-cd ../frontend
-npm install
-npm run dev
-```
-
 ## **Project Status**
 
 **Current Phase:** v1.0 — Minimal, local, deterministic project‑management kernel.
