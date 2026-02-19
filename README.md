@@ -92,7 +92,8 @@ Together, these components transform **project data** into **structured, governe
 
 **Current Phase:** v1.0.0 
 
-The repository currently consists of the README
+The repository currently contains the architectural foundation and documentation for v1.0.0.
+Implementation begins in v1.0.1.
     
 
 **Next milestone:** v1.0.1 — All phase 0 documents
@@ -109,6 +110,8 @@ projectflow-kernel/
 ├── frontend/       # React UI
 └── docs/           # Documentation & diagrams
 ```
+
+---
 
 ## **License**
 
