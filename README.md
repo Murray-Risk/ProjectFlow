@@ -1,5 +1,9 @@
 # **ProjectFlow Kernel: A Modular, Deterministic Project Management Core**
 
+*A local‑first, deterministic project‑management kernel built for sovereignty, clarity, and long‑term architectural stability.*
+
+---
+
 ProjectFlow Kernel is a modular project‑management system designed to deliver **sovereign, deterministic control over projects, standards, and operational documentation**. It implements a kernel‑and‑module architecture:
 
 - **The Core Kernel** for Projects, Charter, WBS, Tasks, Milestones, Stakeholders, Sites, and Documentation
