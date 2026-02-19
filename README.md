@@ -86,24 +86,12 @@ Together, these components transform **project data** into **structured, governe
 
 ## **Project Status**
 
-**Current Phase:** v1.0 — Minimal, local, deterministic project‑management kernel.
+**Current Phase:** v1.0.0 
 
-The repository currently includes:
-
-- Core PM kernel (Projects, Charter, WBS, Tasks, etc.)
-    
-- Domain modules (Risk, OHS, EMS, Asset)
-    
-- Manual standards upload
-    
-- React frontend shell
-    
-- SQLite backend
-    
-- Documentation export (TXT)
+The repository currently consists of the README
     
 
-**Next milestone:** v1.2 — Optional multi‑machine access via private backend.
+**Next milestone:** v1.0.1 — All phase 0 documents
 
 ## **Repository Structure**
 
