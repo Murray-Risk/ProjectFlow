@@ -98,6 +98,15 @@ Implementation begins in v1.0.1.
 
 **Next milestone:** v1.0.1 — All phase 0 documents
 
+
+**Roadmap**
+
+v1.0.x — Document stack buildout  
+v1.2.x — Local, standalone implementation  
+v2.x — Multi‑platform and shared backend  
+v3.x — Introduction of symbolic/AI/ML capabilities  
+
+
 ## **Repository Structure**
 
 Code
