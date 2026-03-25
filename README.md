@@ -1,115 +1,115 @@
-# **ProjectFlow Kernel: A Modular, Deterministic Project Management Core**
+# **ProjectFlow Kernel**  
+---
+### *A Minimal, Deterministic Project‑Management Core (v1.x)*
+---
+ProjectFlow Kernel is a lightweight, local‑first project‑management system designed for clarity, stability, and long‑term maintainability. It provides a clean foundation for managing projects, tasks, documentation, and domain‑specific modules without cloud dependencies, automation, or hidden behaviour.
 
-*A local‑first, deterministic project‑management kernel built for sovereignty, clarity, and long‑term architectural stability.*
+This version (v1.x) is intentionally simple: a deterministic CRUD kernel for personal project management and structured operational records.
 
 ---
 
-ProjectFlow Kernel is a modular project‑management system designed to deliver **sovereign, deterministic control over projects, standards, and operational documentation**. It implements a kernel‑and‑module architecture:
-
-- **The Core Kernel** for Projects, Charter, WBS, Tasks, Milestones, Stakeholders, Sites, and Documentation
-    
-- **Domain Modules** for Risk, OHS, EMS, and Asset Management
-    
-
-This separation enables **clarity, extensibility, and long‑term architectural stability** without introducing AI, automation, or external dependencies.
-
 ## **Why ProjectFlow Kernel Exists**
 
-Most project‑management tools force a trade‑off between **simplicity**, **control**, and **sovereignty**. ProjectFlow Kernel rejects that compromise. It is built to solve three foundational problems:
+Most project‑management tools are:
 
-### **1. Tool Bloat**
+- overloaded with features  
+- tied to cloud accounts  
+- opinionated or automated in ways you can’t control  
 
-Modern PM tools accumulate features until they become ungovernable. ProjectFlow Kernel restores minimalism through a clean, modular architecture.
+ProjectFlow Kernel takes the opposite approach:
 
-### **2. Cloud Dependence**
+- **Local‑first** — runs entirely on your machine  
+- **Deterministic** — no automation, no inference, no surprises  
+- **Modular** — core kernel + optional domain modules  
+- **Document‑centric** — structured records, not opaque workflows  
 
-Most systems require external services, accounts, or vendor lock‑in. ProjectFlow Kernel runs locally, offline, and under your full control.
+It is built for users who want **sovereign control** over their project data without the complexity of enterprise platforms.
 
-### **3. Hidden Automation**
+---
 
-Contemporary PM platforms embed opaque logic and AI‑driven behaviour. ProjectFlow Kernel is deterministic, transparent, and free of automation.
+## **Core Architecture**
 
-## **The Philosophy: Determinism Over Convenience**
+ProjectFlow Kernel follows a simple three‑layer structure:
 
-Early software systems were simple, inspectable, and user‑governed. ProjectFlow Kernel returns to that mindset.
+### **1. Core Kernel**
+Foundational project‑management entities:
 
-It prioritises **clarity over cleverness**. It favours **explicit structure over hidden behaviour**. It treats **documentation as a first‑class architectural artifact**.
+- Projects  
+- Charter  
+- Work Breakdown Structure (WBS)  
+- Tasks & Subtasks  
+- Milestones  
+- Stakeholders & Team  
+- Sites  
+- Documentation records  
 
-This approach enables long‑term reliability through **minimalism, modularity, and documentary governance**.
+This layer defines the structural backbone of the system.
 
-## **The Kernel Architecture**
+---
 
-ProjectFlow Kernel is governed by a three‑part architectural pattern:
+### **2. Domain Modules**
+Optional, self‑contained modules extending the kernel:
 
-### **• The Core Kernel (Project Governance)**
+- **Risk** (ISO 31000)  
+- **OHS** (ISO 45001)  
+- **Environmental Management** (ISO 14001)  
+- **Asset Management** (ISO 55000)  
 
-Provides Projects, Charter, WBS, Tasks, Milestones, Stakeholders, Team, Sites, and Documentation. It is the system’s structural foundation.
+Modules add domain‑specific CRUD features without modifying the core.
 
-### **• The Module Layer (Domain Extensions)**
+---
 
-Risk, OHS, EMS, and Asset modules extend the kernel without modifying it. Each module is self‑contained and deterministic.
+### **3. Standards Layer**
+Projects can attach external documents such as:
 
-### **• The Standards Layer (Manual Attachments)**
+- standards  
+- guidelines  
+- legislation  
+- manuals  
 
-Projects may include standards, legislation, and guidelines as uploaded documents. No parsing, automation, or inference is performed.
+These are stored as files only — **no parsing, automation, or inference**.
 
-Together, these components transform **project data** into **structured, governed operational records**.
+---
 
 ## **Technical Stack**
 
 ### **Backend**
-
-- **FastAPI** — API framework
-    
-- **SQLite** — Local, file‑based storage
-    
-- **Pydantic v2** — Data validation
-    
-- **Uvicorn** — Development server
-    
+- FastAPI  
+- SQLite (local file‑based storage)  
+- Pydantic v2  
+- Uvicorn (development server)
 
 ### **Frontend**
-
-- **React** — UI framework
-    
-- **TypeScript** — Type‑safe development
-    
-- **Vite** — Build tooling
-    
+- React  
+- TypeScript  
+- Vite  
 
 ### **Modules**
+- Risk Register  
+- OHS (Hazards & Incidents)  
+- EMS (Aspects & Objectives)  
+- Asset Register  
 
-- **Risk (ISO 31000)** — CRUD risk register
-    
-- **OHS (ISO 45001)** — Hazards & incidents
-    
-- **EMS (ISO 14001)** — Aspects & objectives
-    
-- **Asset (ISO 55000)** — Assets & maintenance
-    
+---
 
 ## **Project Status**
 
-**Current Phase:** v1.0.0 
+**Current Version:** v1.0 — Minimal deterministic kernel for personal project management.
 
-The repository currently contains the architectural foundation and documentation for v1.0.0.
-Implementation begins in v1.0.1.
-    
+Included:
 
-**Next milestone:** v1.0.1 — All phase 0 documents
+- Core project‑management entities  
+- Domain modules (Risk, OHS, EMS, Asset)  
+- Local‑only storage  
+- React frontend shell  
+- TXT export for documentation  
 
+**Next milestone (v1.2):**  
+Optional multi‑machine access via a private backend.
 
-**Roadmap**
-
-v1.0.x — Document stack buildout  
-v1.2.x — Local, standalone implementation  
-v2.x — Multi‑platform and shared backend  
-v3.x — Introduction of symbolic/AI/ML capabilities  
-
+---
 
 ## **Repository Structure**
-
-Code
 
 ```
 projectflow-kernel/
@@ -129,3 +129,5 @@ MIT License — see `LICENSE` for details.
 **Author:** William Murray
 
 ---
+
+
