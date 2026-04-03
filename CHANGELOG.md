@@ -5,6 +5,49 @@ This project follows **semantic versioning**: `MAJOR.MINOR.PATCH`.
 
 ---
 
+# **CHANGELOG Entry — v0.1.0**
+
+## **v0.1.0 — Documentation Corpus Baseline (Phases 0–2)**  
+**Date:** 2026‑04‑03  
+**Status:** Baseline  
+
+This release establishes the **complete Document‑Driven Design (DDD) corpus** for the ProjectFlow Kernel and marks the transition from conceptual design to repository initialization.
+
+### **Added**
+- **Phase 0 — Conceptual Layer**
+  - Technical Analysis Report  
+  - Architecture Feasibility Report  
+  - Product Requirements Document (PRD)  
+  - Risk Management Plan  
+  - Initial Risk Register  
+
+- **Phase 1 — Constitutional Layer**
+  - System Architecture Document (SAD)  
+  - Data Architecture Specification (DAS)  
+  - API Specification  
+  - Security & Governance Specification  
+  - Testing Strategy & Test Plan  
+  - Domain Logic Specification  
+  - Technical Risk Assessment  
+  - Security Risk Assessment  
+  - Repository Manifest (Physical Map)  
+  - Standards Intake Boundary (ICD‑S01)  
+  - v0.x Constitution  
+
+- **Phase 2 — Execution Layer**
+  - Development Plan  
+  - Component Design Specification  
+  - Configuration & Environment Guide  
+  - Risk Monitoring Log  
+  - Automated Invariant Definitions (documentation)  
+
+### **Summary**
+This version establishes the **full constitutional, architectural, and operational scaffolding** required for the v0.1 repository.  
+All invariants, boundaries, and governance structures are now defined.  
+The system is ready for **M0 repository initialization** and the creation of backend/frontend scaffolds.
+
+---
+
 ## **v0.1.0 — Structural Scaffolding Release**  
 **Date:** 2026‑04‑03  
 **Status:** Initial Release (Pre‑Functional)
