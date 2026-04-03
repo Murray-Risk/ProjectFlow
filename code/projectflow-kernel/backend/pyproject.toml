@@ -1,0 +1,5 @@
+[project]
+name = "projectflow-kernel-backend"
+version = "0.1.0"
+description = "ProjectFlow Kernel backend scaffold (v0.x)"
+requires-python = ">=3.11"
