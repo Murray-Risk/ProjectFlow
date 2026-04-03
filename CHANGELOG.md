@@ -5,6 +5,43 @@ This project follows **semantic versioning**: `MAJOR.MINOR.PATCH`.
 
 ---
 
+# **CHANGELOG — v0.1.1**
+
+## **v0.1.1 — v0.x Scaffold Baseline (M0 Commit)**  
+**Date:** 2026‑04‑03  
+**Status:** Baseline  
+
+This release instantiates the **complete v0.x scaffold** in the repository, bringing the physical directory structure into full alignment with the **Repository Manifest** and the constitutional documents in Phase 1.
+
+### **Added**
+- Full backend scaffold:
+  - `backend/app/` with empty `main.py`, `db.py`, and module‑isolated router placeholders  
+  - `routers/` directory containing empty routers for all core, governance, and ISO‑aligned modules  
+  - `models/` directory with `__init__.py` placeholder  
+  - `.gitignore`, `requirements.txt`, and structural files  
+
+- Full frontend scaffold:
+  - `src/` with `main.tsx`, `App.tsx`, and router shell  
+  - `pages/` directory containing empty placeholder pages for all modules  
+  - `package.json`, `tsconfig.json`, `vite.config.ts`, `.gitignore`  
+
+- Execution‑layer documents:
+  - Development Plan  
+  - Component Design Specification  
+  - Configuration & Environment Guide  
+  - Risk Monitoring Log  
+  - Automated Invariant Definitions (documentation only)  
+
+### **Summary**
+This version marks the **physical realization of the v0.x architecture**.  
+The repository now mirrors the documented structure exactly, with all modules, boundaries, and placeholders in place.  
+No logic, persistence, workflows, or state exist — the system is in **pure scaffold mode**, fully compliant with the Constitution.
+
+The project is now ready to begin **v1.0 CRUD implementation** under the constitutional constraints and Phase 1 governance documents.
+
+---
+
+
 # **CHANGELOG Entry — v0.1.0**
 
 ## **v0.1.0 — Documentation Corpus Baseline (Phases 0–2)**  
